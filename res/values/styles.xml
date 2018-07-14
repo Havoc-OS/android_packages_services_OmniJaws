@@ -23,16 +23,16 @@
     <!-- Preferences -->
     <style name="SettingsPreference" parent="@*android:style/Preference.DeviceDefault">
         <item name="android:singleLineTitle">false</item>
-        <item name="android:iconSpaceReserved">true</item>
+        <item name="android:iconSpaceReserved">false</item>
     </style>
 
     <style name="SettingsSwitchPreference" parent="@*android:style/Preference.DeviceDefault.SwitchPreference">
-        <item name="android:iconSpaceReserved">true</item>
+        <item name="android:iconSpaceReserved">false</item>
         <item name="android:singleLineTitle">false</item>
     </style>
 
     <style name="SettingsCheckBoxPreference" parent="@*android:style/Preference.DeviceDefault.CheckBoxPreference">
-        <item name="android:iconSpaceReserved">true</item>
+        <item name="android:iconSpaceReserved">false</item>
         <item name="android:singleLineTitle">false</item>
     </style>
 
@@ -42,12 +42,12 @@
 
     <style name="SettingsDialogPreference" parent="@*android:style/Preference.DeviceDefault.DialogPreference">
         <item name="android:singleLineTitle">false</item>
-        <item name="android:iconSpaceReserved">true</item>
+        <item name="android:iconSpaceReserved">false</item>
     </style>
 
     <style name="SettingsPreferenceScreen" parent="@*android:style/Preference.DeviceDefault.PreferenceScreen">
         <item name="android:singleLineTitle">false</item>
-        <item name="android:iconSpaceReserved">true</item>
+        <item name="android:iconSpaceReserved">false</item>
     </style>
 
     <style name="SettingsListPreference" parent="SettingsPreference"/>
